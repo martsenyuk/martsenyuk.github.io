@@ -1,0 +1,15 @@
+ul li a {
+    list-style-type: circle;
+    display: block;
+    padding: 2px;
+    
+}
+ul li a.blue {
+    color: blue;
+}
+ul li a.orange {
+    color: #f70;
+}
+ul li a.silver {
+    color: #666;
+}

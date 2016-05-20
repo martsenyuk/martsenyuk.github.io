@@ -1,0 +1,57 @@
+nav {
+    background: #be7ee9;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+ul.top-menu {
+	padding: 0 0 0 50px;
+    position: relative;
+}
+ul.top-menu li,ul.more li {
+	display: inline-block;
+	padding: 7px 20px;
+}
+nav ul.more {
+    position:absolute;
+    right: 70px;
+    top: 0px;
+    padding: 0;
+}
+li:hover {
+    color: #ffffff; /* Цвет текста активного пункта */
+    background-color: #cfcfcf; /* Цвет фона активного пункта */
+}
+.paginator {
+    font-size: 15px;
+    font-family: 'Economica', sans-serif;
+    padding: 10px 0px;
+    background: #f0efef;
+    width: 600px
+    
+}
+.paginator li {
+    display: inline;
+    padding: 7px;
+    border-radius: 10px;
+    border:1px solid #cecece;
+}
+li.other {
+    border: none;
+}
+ul li:hover{
+    background: #be7ee9;
+}
+.paginator a {
+    text-decoration: none;
+    color: #be7ee9;
+    font-weight: bold;
+    padding: 8px;
+}
+.paginator a:hover{
+    color:#ffffff;
+}

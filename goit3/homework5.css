@@ -1,0 +1,7 @@
+table tr td.colory {
+    background-color:#fafada;
+}
+
+tr:nth-child(2n) {
+    background-color: #ddebf7;
+}

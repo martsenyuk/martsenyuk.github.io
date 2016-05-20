@@ -1,0 +1,30 @@
+body {
+    font-size: 20px;
+}
+span.red {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+span.green {
+    background-color: #00ad00;
+    color: white;
+    border-radius: 10px;
+}
+span.blue {
+    background-color: #2465f8;
+    color: white;
+    border-radius: 10px;
+}
+#red {
+    
+}
+#red:checked ~.red {
+    display: none;
+}
+#green:checked ~.green {
+    display: none;
+}
+#blue:checked ~.blue {
+    display: none;
+}
